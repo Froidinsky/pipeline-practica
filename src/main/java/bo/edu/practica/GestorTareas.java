@@ -1,6 +1,7 @@
 package bo.edu.practica;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class GestorTareas {
 

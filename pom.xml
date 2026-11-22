@@ -60,6 +60,21 @@
                 </dependencies>
             </plugin>
 
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.5.1</version>
+
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>bo.edu.practica.App</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 

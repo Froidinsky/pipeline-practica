@@ -14,4 +14,8 @@ public class GestorTareas {
     public int cantidadTareas() {
         return tareas.size();
     }
+
+    public boolean estaVacia() {
+        return tareas.isEmpty();
+    }
 }
